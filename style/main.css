@@ -1,33 +1,84 @@
 /* =========================Common================================== */
+
 * {
     box-sizing: border-box;
-}
-
-body {
     margin: 0;
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: column;
     max-width: 1280px;
-        margin: 0 auto;
-    }
+    margin: 0 auto;
+}
+
+.slash-after::after {
+content: "/";
+}
+
 /* ========================/Common================================== */
 
-
 /* =========================Header================================== */
+
+.header {
+    display: flex;
+    background-color: tomato;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    width: calc(100% +200%);
+}
+
+.nav__item {
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.nav__item a {
+    text-decoration: none;
+}
+
 /* ========================/Header================================== */
 
 /* =========================Sea===================================== */
+
+.sea {
+    background-color: skyblue;
+}
+
 /* ========================/Sea===================================== */
 
 /* =========================Explore================================= */
+
+.explore {
+    background-color: gray;
+}
+
 /* ========================/Explore================================== */
 
 /* =========================Some dude================================ */
+
+.some-dude {
+    background-color: indigo;
+}
+
 /* ========================/Some dude================================ */
 
 /* =========================Map===================================== */
+
+.map {
+    background-color: maroon;
+}
+
 /* ========================/Map===================================== */
 
 /* =========================Footer================================== */
+
+footer {
+    background-color: olive;
+    text-align-last: center;
+}
+
 /* ========================/Footer================================== */
