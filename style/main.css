@@ -13,6 +13,10 @@
     font-family: "Spectral SC", serif;
 }
 
+body {
+    width: 100%;
+}
+
 .slash-after::after {
     content: "/";
     padding-left: 20px;
@@ -42,8 +46,19 @@
     margin: 0 auto;
 }
 
+.header__nav-container {
+    padding: 40px 0 34px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
 .header__nav {
     display: flex;
+}
+
+.header__nav-burger-menu-button {
+    display: none;
 }
 
 .header__title {
@@ -52,13 +67,6 @@
     font-size: 40px;
     font-weight: 400;
     color: #ffffff;
-}
-
-.header__nav-container {
-    padding: 40px 0 34px 0;
-    font-size: 20px;
-    font-weight: 400;
-    color: #FFFFFF;
 }
 
 .nav__item {
@@ -86,6 +94,8 @@
 }
 
 .sea__title {
+    width: 50%;
+    text-align: center;
     padding-top: 129px;
     margin-bottom: 46px;
     font-family: "Spectral SC", serif;
@@ -256,10 +266,10 @@
 
 .map__form-container {
     background-color: #FDFDFD;
-    opacity: 0.60;
+    opacity: 0.80;
     border: 0.5px solid #cccccc;
     border-radius: 50%;
-    width: 431px;
+    width: 390px;
 }
 
 .map__form-container:hover {
@@ -275,7 +285,7 @@
 
 .form__item-name {
     width: 276px;
-    margin-top: 110px;
+    margin-top: 80px;
     margin-bottom: 14px;
     font-family: "Spectral SC", serif;
     font-size: 14px;
@@ -308,9 +318,9 @@
     margin-bottom: 50px;
 }
 
-/*Start of CSS for the custom checkpoints copypasted from W3C website*/
+/* w3c */
 
-.custom-checkbox-container {
+.form__custom-checkbox-container {
     height: 100px;
     width: 67px;
 }
@@ -362,9 +372,6 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
-/*End of CSS for the custom checkpoints copypasted from W3C website*/
-
 /* ========================/Map===================================== */
 
 /* =========================Footer================================== */

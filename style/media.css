@@ -1,0 +1,145 @@
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .wrapper {
+        overflow-x: hidden;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav-burger-menu {
+        display: none;
+    }
+
+    .header__nav-burger-menu-button {
+        display: block;
+        width: 39px;
+        border: 4px solid #ffffff;
+        position: relative;
+        color: #ffffff;
+        height: 0px;
+        padding: 0;
+    }
+
+    .header__nav-burger-menu-button::before {
+        content: "";
+        position: absolute;
+        width: 31px;
+        right: -4px;
+        top: 7px;
+        border: 4px solid #ffffff;
+    }
+
+    .header__nav-burger-menu-button::after {
+        content: "";
+        position: absolute;
+        width: 31px;
+        right: -4px;
+        top: 18px;
+        border: 4px solid #ffffff;
+    }
+
+    .header__nav-burger-menu-button:focus {
+        position: relative;
+        border: 4px solid #5DB9D0;
+        outline: 0;
+    }
+
+    .header__nav-burger-menu-button:focus::before {
+        border: 4px solid #5DB9D0;
+    }
+
+    .header__nav-burger-menu-button:focus::after {
+        border: 4px solid #5DB9D0;
+    }
+
+    .header__nav-burger-menu-button:focus .header__nav-burger-menu {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: -24px;
+    }
+
+    .nav__burger-menu-item {
+        list-style-type: none;
+        background-color: #4C97A3;
+        font-size: 18px;
+        border-top: 2px solid #33646c;
+        border-left: 2px solid #33646c;
+        border-right: 2px solid #33646c;
+        padding: 10px;
+    }
+    
+    .nav__burger-menu-item a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .nav__burger-menu-item-last {
+        border-bottom: 2px solid #33646c;
+    }
+
+    .sea__title {
+        font-size: 6vw;
+        width: 100%;
+    }
+
+    .explore__images {
+        width: 70vw;
+    }
+
+    .some-dude__name-container {
+        padding-left: 7px;
+    }
+
+    .some-dude__inch {
+        left: 7px;
+    }
+
+    .map__form-container {
+        width: 310px;
+    }
+
+    .form__item-name, .form__item-adress, .form__item-message {
+        width: 220px;
+    }
+
+    .form__item-name {
+        margin-top: 72px;
+        margin-bottom: 10px;
+    }
+
+    .form__item-adress {
+        margin-bottom: 11px;
+    }
+
+    .form__item-message {
+        margin-bottom: 11px;
+    }
+
+    .form__custom-checkbox-container {
+        height: 86px;
+    }
+}
+
+@media (max-width: 576px) {
+    .form__item-name {
+        margin-top: 53px;
+    }
+
+    .form__item-adress {
+        margin-bottom: 8px;
+    }
+
+    .form__item-message {
+        margin-bottom: 8px;
+    }
+
+    .form__custom-checkbox-container {
+        height: 80px;
+    }
+}
