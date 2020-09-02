@@ -203,14 +203,14 @@ body {
 
 /* ========================/Explore================================== */
 
-/* =========================Some dude================================ */
+/* =========================User block=============================== */
 
-.some-dude {
+.user-block {
     color: #ffffff;
     background-color: #00D089;
 }
 
-.some-dude__img {
+.user-block__img {
     width: 135px;
     height: 135px;
     object-fit: cover;
@@ -219,23 +219,23 @@ body {
     margin-bottom: 62px;
 }
 
-.some-dude__container {
+.user-block__container {
     display: flex;
     padding-top: 50px;
 }
 
-.some-dude__name-container {
+.user-block__name-container {
     position: relative;
     padding-left: 38px;
 }
 
-.some-dude__description {
+.user-block__description {
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 700;
 }
 
-.some-dude__inch {
+.user-block__inch {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
     bottom: 80px;
@@ -245,14 +245,14 @@ body {
     color: #58DAA5;
 }
 
-.some-dude__text {
+.user-block__text {
     padding-bottom: 94px;
     font-family: "Spectral SC", serif;
     font-size: 18px;
     font-weight: 400;
 }
 
-/* ========================/Some dude================================ */
+/* ========================/User block================================ */
 
 /* =========================Map===================================== */
 
