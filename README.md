@@ -1,2 +1,2 @@
-# lesson-6
+# Axit Project
 https://aleksey-bortnik.github.io/lesson-6/
