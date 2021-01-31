@@ -1,2 +1,2 @@
-# Axit Project
-https://aleksey-bortnik.github.io/lesson-6/
+# Black Sea
+https://aleksey-bortnik.github.io/Black-Sea/
